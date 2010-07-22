@@ -222,13 +222,6 @@
       <version>1.0</version>
     </dependency>
 
-    <!-- FreeMarker -->
-    <dependency>
-      <groupId>org.freemarker</groupId>
-      <artifactId>freemarker</artifactId>
-      <version>2.3.15</version>
-    </dependency>
-
     <!-- Hibarnate and its dependencies (versions inherited from Seam root) -->
     <dependency>
       <groupId>org.hibernate</groupId>
