@@ -12,9 +12,8 @@ import com.plumsnap.pontrol.service.AppService
 import com.google.inject.Inject
 import com.sun.jersey.api.view.{ImplicitProduces, Viewable}
 
-@Path("/main")
+@Path("/")
 @ImplicitProduces(Array("text/html;qs=5"))
-//@Produces(Array("text/xml", "application/json"))
 class Main @Inject() (val appManager : AppService) {
 
   @GET
